@@ -4,9 +4,10 @@
       "source": "/.well-known/stellar.toml",
       "headers": [
         { "key": "Content-Type", "value": "application/json; charset=utf-8" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
         {
           "key": "Access-Control-Allow-Headers",
-          "value": "Content-Type, X-Requested-With"
+          "value": "Content-Type,X-Requested-With"
         },
         { "key": "x-content-type-options", "value": "nosniff" },
         { "key": "x-frame-options", "value": "SAMEORIGIN" },
