@@ -1,3 +1,17 @@
-VERSION="2.0.0"
-NETWORK_PASSPHRASE="Test SDF Network ; September 2015"
+
+ACCOUNTS = [ "GBJTZHVAZBBOLGJQ5NHO2NNQKVK5VLJTSJOGQGU64BCEHLSS4V3K7YNP" ]
+VERSION = "0.1.0"
 SIGNING_KEY="GBJTZHVAZBBOLGJQ5NHO2NNQKVK5VLJTSJOGQGU64BCEHLSS4V3K7YNP"
+NETWORK_PASSPHRASE = "Test SDF Network ; September 2015"
+
+[[PRINCIPALS]]
+name = "Fifo Zatti"
+email = "fifo@ahalabs.dev"
+keybase = "fazzatti"
+github = "https://www.github.com/fazzatti"
+
+[DOCUMENTATION]
+ORG_NAME = "Fifo Wallet Demo"
+ORG_URL = "https://stellar-toml-fifo-host.vercel.app"
+ORG_DESCRIPTION = "demo wallet client."
+
